@@ -1,0 +1,3 @@
+# Git will ignore the AdventureWorksLT2012 database (.mdf) and logfile (.ldf) to keep the repo clean
+AdventureWorksLT2012_Data.mdf
+AdventureWorksLT2012_log.ldf
