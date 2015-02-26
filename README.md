@@ -12,4 +12,5 @@ I am using the "Lite" version, because the full version is over 180MB and that's
 
 The .gitignore file specifies both the .mdf and .ldf files, which are the corresponding database and log files, that are not committed. However, all scripts applicable to these sample databases will be commited.
 
-v1.0 - The "scripts" folder will contain all the goodies
+v1.1.0 - Added a "queries" folder, which will contain sample queries demonstrating tasks against the database. Each query should have a descriptive name and the commends will explain what it is doing.
+v1.0.0 - The "scripts" folder will contain all the goodies for scripting the sample database
