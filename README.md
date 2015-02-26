@@ -1,4 +1,4 @@
-This repository is for demonstrating various SQL Server 2012 solutions/scripts/etc.
+This repository is for demonstrating various SQL Server 2012 solutions/scripts/etc. The specific tasks are derived from examples in "SQL Server 2012 T-SQL Recipes, 3rd Edition",  by Jason Brimhall, David Dye, Jonathan Gennick, Andy Roberts, and Wayne Sheffield.
 
 It uses the AdventureWorksLT2012_Data.mdf database, which is a freely distributed sample database provided by Microsoft. You can download it here: http://msftdbprodsamples.codeplex.com/releases/view/55330
 
