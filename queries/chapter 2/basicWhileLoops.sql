@@ -27,3 +27,27 @@ BEGIN
 	SELECT @Integer1 = @Integer1 + 1;
 END
 
+-- This WHILE loop explores the concept of an infinite loop, and BREAKing out of such a condition
+
+-- Setting infinte loop condition
+WHILE (1 = 1)
+BEGIN -- Beginning outer loop
+	PRINT 'Endless loop'
+	IF (1 = 1) -- if condition to specify how to break out of loop
+	BEGIN
+		PRINT 'But this IF statement prevents an infinite loop'
+		BREAK; -- The BREAK statement terminates the loop
+	END;
+END;
+
+-- This WHILE loops uses the CONTINUE condition.
+-- It also uses the "SET" command, which is used to set or change an existing variable 
+-- to a new value.
+DECLARE @var int = 1
+WHILE @var = 1
+BEGIN
+	SET @var = @var + 1;
+	IF @var > 1
+		CONTINUE;
+	PRINT 'You will never see this message';
+END;
